@@ -12,7 +12,8 @@ This is the image I used for compressing.
 
 We will first split the image into the three channels (Blue, Yellow, and Red) and then and perform PCA separately on each dataset representing each channel and will then merge them to reconstruct the compressed image. Hence, if our colored image is of shape (m, n, 3), where (m X n) is the total number of pixels of the image on the three channels (b, y, r).
 
-Original image and Compressed image is shown below for comparison
-![download](https://user-images.githubusercontent.com/96775630/209915425-0c54c789-b53d-4c9d-9686-cb4cda56ac25.png)
+Compressed image is shown below:
+
+![download (2)](https://user-images.githubusercontent.com/96775630/209915996-edd48f71-dbb7-4abe-bfe2-dbd43ff97f77.png)
 
 The compressed image is very similar to that of the original one although we have reduced the dimension individually for each channel to only 50 from 2312.
