@@ -7,7 +7,8 @@ Reducing the number of variables of a data set naturally comes at the expense of
 
 This is the image I used for compressing.
 
-![Sacred_lotus_Nelumbo_nucifera](https://user-images.githubusercontent.com/96775630/209914969-efce3168-56e7-482d-98ad-a0630754bfb1.jpg)
+![download (1)](https://user-images.githubusercontent.com/96775630/209915815-18f77221-4f95-49bd-98d3-779a656a8bc1.png)
+
 
 We will first split the image into the three channels (Blue, Yellow, and Red) and then and perform PCA separately on each dataset representing each channel and will then merge them to reconstruct the compressed image. Hence, if our colored image is of shape (m, n, 3), where (m X n) is the total number of pixels of the image on the three channels (b, y, r).
 
